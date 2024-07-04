@@ -1,0 +1,6 @@
+
+
+
+
+pc will speak
+powershell -Command "Add-Type -AssemblyName System.speech; $synthesizer = New-Object -TypeName System.Speech.Synthesis.SpeechSynthesizer; $synthesizer.Speak('i am arka braja prasad nath')"
